@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <HTML>
 <HEAD>
-<TITLE>v1.8 - GA hopefully working</TITLE>
+<TITLE>v1.9 - GA hopefully working</TITLE>
 </HEAD>
 <BODY>
-<p> php priming for GoogleAnalytics</p>
- <?php include_once("analyticstracking.php") ?>
-
+<p> php test </p>
+<?php echo '<p>Hello World</p>'; ?> 
   <script>
     alert( 'Bem vindo! Carregue em "Ok" para ser tracked' );
   </script>
@@ -22,4 +21,5 @@
   ga('create', 'UA-103300405-1', 'auto');  ga('send', 'pageview');
   </script>
   </BODY>
+ <?php include_once("analyticstracking.php") ?>
 </HTML>
